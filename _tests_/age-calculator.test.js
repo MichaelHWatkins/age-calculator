@@ -10,6 +10,6 @@ describe('Calulator', () => {
 
   test('should correctly calculate the age of the user if they lived on Mercury', () => {
     const calulator = new Calculator(2, 95);
-    expect(calulator.mercury()).toEqual(8.33);
+    expect(calulator.mercury()).toEqual(8.34);
   });
 });

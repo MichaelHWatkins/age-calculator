@@ -3,4 +3,8 @@ export default class Calculator {
     this.age = age;
     this.life = life;
   }
+
+  mercury() {
+    return Math.ceil((this.age / .24) * 100)/100;
+  }
 }
