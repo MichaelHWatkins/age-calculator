@@ -37,4 +37,5 @@ describe('Calulator', () => {
     const calulator = new Calculator(96, 95);
     expect(calulator.impendingDeath()).toEqual("You have lived roughly 5 years past your life expectancy on Mercury, 2 years past life expectancy on Venus, 1 year past life expectancy on Mars, and 0 years past life expectancy on Jupiter!");
   })
+
 });
