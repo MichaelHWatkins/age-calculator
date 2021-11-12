@@ -22,4 +22,9 @@ describe('Calulator', () => {
     const calulator = new Calculator(2, 95);
     expect(calulator.mars()).toEqual(1.07);
   });
+
+  test('should correctly calculate the age of the user if they lived on Jupiter', () => {
+    const calulator = new Calculator(2, 95);
+    expect(calulator.jupiter()).toEqual(.17);
+  });
 });
