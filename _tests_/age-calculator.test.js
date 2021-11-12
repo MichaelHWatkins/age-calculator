@@ -32,4 +32,9 @@ describe('Calulator', () => {
     const calulator = new Calculator(2, 95);
     expect(calulator.impendingDeath()).toEqual("On Mercury you have roughly 388 year left to live. On Venus you have 150 years left to live. On Mars you have 50 years left to live. And on Jupiter you have 8 years left to live.");
   })
+
+  test('should correctly calculate the amount of time the user has lived past their life expectancy on each planet', () => {
+    const calulator = new Calculator(96, 95);
+    expect(calulator.impendingDeath()).toEqual("You have lived ");
+  })
 });
