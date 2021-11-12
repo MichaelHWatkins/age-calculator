@@ -11,4 +11,8 @@ export default class Calculator {
   venus() {
     return Math.ceil((this.age / .62) * 100)/100;
   }
+
+  mars() {
+    return Math.ceil((this.age / 1.88) * 100)/100;
+  }
 }

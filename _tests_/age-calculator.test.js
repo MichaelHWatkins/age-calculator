@@ -13,13 +13,13 @@ describe('Calulator', () => {
     expect(calulator.mercury()).toEqual(8.34);
   });
 
-  test('should correctly calculate the age of the user if they lived on Mercury', () => {
+  test('should correctly calculate the age of the user if they lived on Venus', () => {
     const calulator = new Calculator(2, 95);
     expect(calulator.venus()).toEqual(3.23);
   });
 
-  test('should correctly calculate the age of the user if they lived on Mercury', () => {
+  test('should correctly calculate the age of the user if they lived on Mars', () => {
     const calulator = new Calculator(2, 95);
-    expect(calulator.mars()).toEqual(1.06);
+    expect(calulator.mars()).toEqual(1.07);
   });
 });
