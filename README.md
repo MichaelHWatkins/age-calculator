@@ -24,16 +24,16 @@ _Users will enter a number and an array is returned._
 
 ## Setup/Installation Requirements
 
-* _Navigate to https://github.com/MichaelHWatkins/pizza-parlor_
+* _Navigate to https://github.com/MichaelHWatkins/age-calculator_
 * _Click on the green "Code" button and copy the repository URL or click on the copy button_
 * _Open the terminal on your desktop_
 * _Once in the terminal, use it to navigate to your desktop folder_
-* _Once inside your desktop folder, use the command "git clone https://github.com/MichaelHWatkins/pizza-parlor"_
-* _After cloning the project, navigate into it using the command "cd rogers-neighborhood"_
-* _Use the command "git remote" to confirm the creation of the new local repository_
+* _Once inside your desktop folder, use the command "git clone https://github.com/MichaelHWatkins/age-calculator"_
+* _After cloning the project, navigate into it using the command "cd age-calculator"_
+* _Use the command "git remote -v" to confirm the creation of the new local repository_
 * _Open the project with the code editor of your choice_
 * _Run "npm install" in the terminal to set up all the local packages needed to run the program_
-* _To run in the local browser, run first "npm run build" the "npm run start" in the terminal to start the application_
+* _To run in the local browser, run first "npm run build" then "npm run start" in the terminal to start the application_
 
 _Note: when using the commands listed above, do not include the quotation marks. They are used here for readability._
 
