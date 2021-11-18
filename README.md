@@ -34,6 +34,7 @@ _Users will enter a number and an array is returned._
 * _Open the project with the code editor of your choice_
 * _Run "npm install" in the terminal to set up all the local packages needed to run the program_
 * _To run in the local browser, run first "npm run build" then "npm run start" in the terminal to start the application_
+* _To run the test suite run "npm run test"_
 
 _Note: when using the commands listed above, do not include the quotation marks. They are used here for readability._
 
